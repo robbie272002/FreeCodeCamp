@@ -1,0 +1,93 @@
+
+body {
+    background-color: azure;
+    color: aliceblue;
+    margin: 1em;
+}
+
+/* Container styling */
+.container{
+    max-width: auto; 
+    max-height: auto;
+    padding: 2em; 
+    background-color: #252544;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #363680;
+    padding: 2em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 1em;
+}
+ 
+label, legend{
+    font-size: 20px;
+    display: block;
+    margin-top: 0.5em;
+    width: 100%;
+}
+
+input[type=radio] {
+    margin-right: 0.5em;
+}
+
+input, select,textarea{
+    border-radius: 1ex;
+}
+
+input[type=text], input[type=number], select, textarea {
+    width: 100%;
+    padding: 2ex 4ex;
+    margin: 1ex 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 2ex 4ex;
+    resize: none;
+    height: 200px; 
+    vertical-align: top;
+}
+
+footer{
+    background-color: #363680;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.submit-btn {
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 0%;
+        padding: 2ex 4ex;
+        font-size: 20px;
+        border-radius: 1ex;
+        background-color: #28a745;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
+    }
+
+    .submit-btn:hover {
+        background-color: #218838; 
+    }
